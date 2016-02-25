@@ -1,4 +1,9 @@
 $(function(){
+    var current=$('.sliderBanner ol li.active').index(),
+        prevIndex,
+        activeIndex,
+        nextIndex;
+
     $('.sliderBanner ol li').click(function(){
         var bIndex=$(this).index();
         $(this).addClass('active').siblings().removeClass('active');
