@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
 }
+.test {
+  width: 20%;
+  margin:0 auto;
+}
 .sliderBanner {
   position: relative;
 }
@@ -32,18 +36,34 @@
   margin: 0;
   background-color: rgba(255,255,255,1);
 }
-.sliderBanner .sliderInner {
+
+.sliderBanner ul {
+  position: relative;
+  width: 100%;
+  transform: translate3D(0,0,0);
+}
+.sliderBanner ul li {
+  display: none;
   width: 100%;
 }
-.sliderBanner .sliderInner ul {
-  width: 200%;
-}
-.sliderBanner .sliderInner ul li {
-  display: none;
-  width: 50%;
-}
-.sliderBanner .sliderInner ul li.prev,
-.sliderBanner .sliderInner ul li.active,
-.sliderBanner .sliderInner ul li.next {
+.sliderBanner ul li a,
+.sliderBanner ul li img {
   display: block;
+  width: 100%;
+}
+.sliderBanner ul li.prev,
+.sliderBanner ul li.active,
+.sliderBanner ul li.next {
+  display: block;
+}
+.sliderBanner ul li.prev,
+.sliderBanner ul li.next {
+  position: absolute;
+  top: 0;
+}
+.sliderBanner ul li.prev {
+  left: -100%;
+}
+.sliderBanner ul li.next {
+  left: 100%;
 }
