@@ -2,12 +2,13 @@
   padding: 0;
   margin: 0;
 }
-.test {
-  width: 20%;
-  margin:0 auto;
-}
+/*.test {*/
+  /*width: 20%;*/
+  /*margin:0 auto;*/
+/*}*/
 .sliderBanner {
   position: relative;
+  overflow: hidden;
 }
 .sliderBanner ol {
   position: absolute;
@@ -40,7 +41,6 @@
 .sliderBanner ul {
   position: relative;
   width: 100%;
-  transform: translate3D(0,0,0);
 }
 .sliderBanner ul li {
   display: none;
