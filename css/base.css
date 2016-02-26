@@ -2,10 +2,9 @@
   padding: 0;
   margin: 0;
 }
-/*.test {*/
-  /*width: 20%;*/
-  /*margin:0 auto;*/
-/*}*/
+body {
+  height: 3000px;
+}
 .sliderBanner {
   position: relative;
   overflow: hidden;
