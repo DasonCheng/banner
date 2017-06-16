@@ -1,6 +1,6 @@
 {
   "name": "swiper-banner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "banner swiper",
   "main": "gulpfile.js",
   "scripts": {
