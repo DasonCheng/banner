@@ -7,8 +7,8 @@ npm install swiper-banner
 
 ###unpkg
 ```html
-<link rel="stylesheet" href="https://unpkg.com/swiper-banner@1.0.0/dist/banner-swiper.css">
-<script src="https://unpkg.com/swiper-banner@1.0.0/dist/banner-swiper.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper-banner@1.0.0/dist/swiper-banner.css">
+<script src="https://unpkg.com/swiper-banner@1.0.0/dist/swiper-banner.js"></script>
 ```
 
 
