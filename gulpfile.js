@@ -28,7 +28,7 @@ gulp.task('babel', () => {
       presets: ['es2015']
     }))
     .pipe(uglify())
-    .pipe(concat('banner-swiper.js'))
+    .pipe(concat('swiper-banner.js'))
     .pipe(gulp.dest(paths.babel[1]));
 });
 

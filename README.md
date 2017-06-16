@@ -1,8 +1,20 @@
-# banner-swiper
+# swiper-banner
+
+###pnm
+```
+npm install swiper-banner
+```
+
+###unpkg
+```html
+<link rel="stylesheet" href="https://unpkg.com/swiper-banner@1.0.0/dist/banner-swiper.css">
+<script src="https://unpkg.com/swiper-banner@1.0.0/dist/banner-swiper.js"></script>
+```
+
 
 *css*
 ```html
-<link rel="stylesheet" href="banner-swiper.css">
+<link rel="stylesheet" href="swiper-banner.css">
 ```
 
 *HTML*
@@ -26,11 +38,11 @@
 
 *js*
 ```html
-<script src="banner-swiper.js"></script>
+<script src="swiper-banner.js"></script>
 ```
 
 ```javascript
-new BannerSwiper('.banner-container', {
+new SwiperBanner('.banner-container', {
       ctrl_btn: false, //是否显示控制按钮
       auto_play: true, //是否启动自动播放
       times: 3000 //自动轮播的时间间隔
