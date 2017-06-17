@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>banner-swiper</title>
-  <script src="./dist/swiper-banner.js"></script>
+  <link rel="stylesheet" href="./dist/swiper-banner.css">
 </head>
 
 <body>
@@ -27,9 +27,10 @@
       </a>
     </div>
   </div>
+  <script src="./dist/swiper-banner.js"></script>
   <script>
     new SwiperBanner('.banner-container', {
-      ctrl_btn: false,
+      ctrl_btn: true,
       auto_play: true, //是否启动自动播放
       times: 3000 //自动轮播的时间间隔
     }).init();

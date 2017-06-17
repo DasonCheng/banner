@@ -17,16 +17,10 @@ window.SwiperBanner = class SwiperBanner {
       banner_direction.className = 'banner-direction'
       banner_direction.innerHTML = `
     <span class='prev'>
-      <svg>
-      <path  fill="#fff" d="M7,54.9l16.3-16.3L7,22.4c-0.5-0.5-0.5-1.4,0-1.9c0.5-0.5,1.4-0.5,1.9,0l17,17c0.3,0.3,0.4,0.7,0.4,1.1
-          c0.1,0.4-0.1,0.8-0.4,1.1l-17,17c-0.5,0.5-1.4,0.5-1.9,0C6.5,56.3,6.5,55.5,7,54.9L7,54.9z"/>
-      </svg>
+      <i class="iconfont icon-angle-left"></i>
     </span>
     <span class='next'>
-      <svg>
-      <path  fill="#fff" d="M7,54.9l16.3-16.3L7,22.4c-0.5-0.5-0.5-1.4,0-1.9c0.5-0.5,1.4-0.5,1.9,0l17,17c0.3,0.3,0.4,0.7,0.4,1.1
-          c0.1,0.4-0.1,0.8-0.4,1.1l-17,17c-0.5,0.5-1.4,0.5-1.9,0C6.5,56.3,6.5,55.5,7,54.9L7,54.9z"/>
-      </svg>
+      <i class="iconfont icon-angle-right"></i>
     </span>
     `
       this.container.appendChild(banner_direction)

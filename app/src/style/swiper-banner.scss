@@ -52,7 +52,6 @@
       width: 30px;
       margin-top: -40px;
       background: rgba(0, 0, 0, 0.5);
-      font-size: 30px;
       line-height: 80px;
       text-align: center;
       text-decoration: none;
@@ -61,9 +60,11 @@
       opacity: .3;
       cursor: pointer;
       transition: opacity 0.8s ease;
+      .iconfont {
+        font-size: 28px;
+      }
       &.prev {
         left: 20px;
-        transform: rotate(180deg)
       }
       &.next {
         right: 20px;

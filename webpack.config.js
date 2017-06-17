@@ -20,10 +20,16 @@ module.exports = {
       }
     }, {
       test: /\.css$/,
-      use: ['style-loader', 'css-loader']
+      use: ExtractTextPlugin.extract({
+        fallback: "style-loader",
+        use: ["css-loader", "postcss-loader"]
+      })
     }, {
       test: /\.scss$/,
-      use: ['style-loader', 'css-loader', 'sass-loader']
+      use: ExtractTextPlugin.extract({
+        fallback: "style-loader",
+        use: ['css-loader', "postcss-loader", 'sass-loader']
+      })
     }, {
       test: /\.(ttf|eot|woff|woff2|svg|jpe?g|png|gif)$/,
       use: [{
@@ -34,7 +40,12 @@ module.exports = {
       }]
     }]
   },
+  // devtool: "inline-source-map",
   plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true
+    }),
+    new ExtractTextPlugin("swiper-banner.css"),
     new webpack.BannerPlugin(`
         Author  :   DasonCheng
         Email   :   dasoncheng@outlook.com
