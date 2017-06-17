@@ -1,8 +1,8 @@
 # swiper-banner
 
-#### [npm](https://www.npmjs.com/package/swiper-banner) 
+#### npm--[swiper-banner](https://www.npmjs.com/package/swiper-banner) 
 *install*
-```
+```bash
 npm install swiper-banner
 ```
 
@@ -12,16 +12,16 @@ import 'swiper-banner/dist/swiper-banner.css'
 import 'swiper-banner/dist/swiper-banner.js'
 ```
 
-#### [unpkg](https://unpkg.com/swiper-banner/dist)
+#### unpkg--[swiper-banner](https://unpkg.com/swiper-banner/dist)
 
 *style*
-```
-https://unpkg.com/swiper-banner/dist/swiper-banner.css
+```html
+<link rel="stylesheet" herf="https://unpkg.com/swiper-banner/dist/swiper-banner.css" />
 ```
 
 *script*
-```
-https://unpkg.com/swiper-banner/dist/swiper-banner.js
+```html
+<script src="https://unpkg.com/swiper-banner/dist/swiper-banner.js"></script>
 ```
 
 
@@ -61,5 +61,5 @@ new SwiperBanner('.banner-container', {
     }).init();
 ```
 
-#### dome
-[swiper-banner](https://codepen.io/dasoncheng/pen/rwjmmb?editors=1010)
+#### demo
+[swiper-banner](https://codepen.io/dasoncheng/pen/rwjmmb)
