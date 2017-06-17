@@ -1,8 +1,8 @@
 {
   "name": "swiper-banner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "banner swiper",
-  "main": "dist/",
+  "main": "dist/swiper-banner.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --watch"
