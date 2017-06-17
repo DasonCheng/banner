@@ -1,25 +1,28 @@
 # swiper-banner
 
-### npm install
-> npm install swiper-banner
+#### npm 
+*install*
+```
+npm install swiper-banner
+```
 
-### import
+*import*
 ```javascript
 import 'swiper-banner/dist/swiper-banner.css'
 import 'swiper-banner/dist/swiper-banner.js'
 ```
 
-### unpkg
+#### unpkg
 
-css
+*style*
+```
+https://unpkg.com/swiper-banner/dist/swiper-banner.css
+```
 
-> https://unpkg.com/swiper-banner/dist/swiper-banner.css
-
-
-js
-
-> https://unpkg.com/swiper-banner/dist/swiper-banner.js
-
+*script*
+```
+https://unpkg.com/swiper-banner/dist/swiper-banner.js
+```
 
 
 *HTML*
@@ -46,7 +49,7 @@ js
 ```
 
 
-### init
+#### init
 ```javascript
 new SwiperBanner('.banner-container', {
       ctrl_btn: false, //是否显示控制按钮
