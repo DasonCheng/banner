@@ -1,6 +1,6 @@
 # swiper-banner
 
-#### npm 
+#### [npm](https://www.npmjs.com/package/swiper-banner) 
 *install*
 ```
 npm install swiper-banner
@@ -12,7 +12,7 @@ import 'swiper-banner/dist/swiper-banner.css'
 import 'swiper-banner/dist/swiper-banner.js'
 ```
 
-#### unpkg
+#### [unpkg](https://unpkg.com/swiper-banner/dist)
 
 *style*
 ```
@@ -30,20 +30,23 @@ https://unpkg.com/swiper-banner/dist/swiper-banner.js
   <div class="banner-container">
     <div class="banner-wrapper">
       <div class="banner-slide" style='background-image: url("{{img_link}}")'>
-
+        ···
       </div>
       <div class="banner-slide" style='background-image: url("{{img_link}}")'>
-
+        ···
       </div>
       <div class="banner-slide" style='background-image: url("{{img_link}}")'>
-
+        ···
       </div>
       <div class="banner-slide" style='background-image: url("{{img_link}}")'>
-
+        ···
       </div>
       <div class="banner-slide" style='background-image: url("{{img_link}}")'>
-
+        ···
       </div>
+      ·
+      ·
+      ·
     </div>
   </div>
 ```
