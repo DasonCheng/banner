@@ -60,3 +60,6 @@ new SwiperBanner('.banner-container', {
       times: 3000 //自动轮播的时间间隔
     }).init();
 ```
+
+#### dome
+[swiper-banner](https://codepen.io/dasoncheng/pen/rwjmmb?editors=1010)
