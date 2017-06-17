@@ -6,16 +6,10 @@ npm install swiper-banner
 ```
 
 ###unpkg
-```html
-<link rel="stylesheet" href="https://unpkg.com/swiper-banner@1.0.0/dist/swiper-banner.css">
-<script src="https://unpkg.com/swiper-banner@1.0.0/dist/swiper-banner.js"></script>
-```
+
+> https://unpkg.com/swiper-banner
 
 
-*css*
-```html
-<link rel="stylesheet" href="swiper-banner.css">
-```
 
 *HTML*
 ```html
@@ -36,10 +30,6 @@ npm install swiper-banner
 ```
 
 
-*js*
-```html
-<script src="swiper-banner.js"></script>
-```
 
 ```javascript
 new SwiperBanner('.banner-container', {

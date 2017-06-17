@@ -1,4 +1,4 @@
-class SwiperBanner {
+window.SwiperBanner = class SwiperBanner {
   constructor(el, option) {
     this.container = document.querySelector(el)
     this.wrapper = document.querySelector(el).querySelectorAll('.banner-wrapper .banner-slide')
