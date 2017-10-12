@@ -1,41 +1,46 @@
 {
-  "name": "swiper-banner",
-  "version": "1.1.1",
-  "description": "banner swiper",
-  "main": "dist/swiper-banner.js",
+  "name": "bee-swiper",
+  "version": "1.0.0",
+  "description": "swiper",
+  "main": "dist/bee-swiper.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-webserver": "^0.9.1",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-stream": "^4.0.0"
+  },
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack --watch"
+    "build": "rm -rf dist && gulp pug && webpack --progress --color"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DasonCheng/swiper-banner.git"
+    "url": "git+https://github.com/myour-cc/bee-swiper.git"
   },
   "keywords": [
-    "js",
+    "swiper",
     "banner"
   ],
   "author": "dasoncheng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DasonCheng/swiper-banner/issues"
+    "url": "https://github.com/myour-cc/bee-swiper/issues"
   },
-  "homepage": "https://github.com/DasonCheng/swiper-banner#readme",
-  "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.5.2",
-    "css-loader": "^0.28.4",
-    "extract-text-webpack-plugin": "^2.1.2",
-    "file-loader": "^0.11.2",
-    "node-sass": "^4.5.3",
-    "postcss-loader": "^2.0.6",
-    "postcss-smart-import": "^0.7.4",
-    "precss": "^1.4.0",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
-    "url-loader": "^0.5.9",
-    "webpack": "^2.6.1"
-  }
+  "homepage": "https://github.com/myour-cc/bee-swiper#readme"
 }

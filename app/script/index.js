@@ -1,4 +1,4 @@
-window.SwiperBanner = class SwiperBanner {
+class BeeSwiper {
   constructor(el, option) {
     this.container = document.querySelector(el)
     this.wrapper = document.querySelector(el).querySelectorAll('.banner-wrapper .banner-slide')
@@ -98,3 +98,9 @@ window.SwiperBanner = class SwiperBanner {
     this.mouse()
   }
 }
+window.BeeSwiper = (el, option) => {
+  let bee = new BeeSwiper(el, option)
+  bee.init()
+  return bee
+}
+
